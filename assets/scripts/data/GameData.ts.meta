@@ -1,0 +1,16 @@
+{
+  "ver": "4.0.9",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "009d435a-df3d-42d1-8a1e-ae1d794904ff",
+  "files": [
+    ".js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/scripts/data/GameData.js",
+    "importerSettings": 0
+  }
+}

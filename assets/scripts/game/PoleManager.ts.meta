@@ -1,0 +1,16 @@
+{
+  "ver": "4.0.9",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "97605d34-82d5-4272-81e1-2ff464ee8870",
+  "files": [
+    ".js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/scripts/game/PoleManager.js",
+    "importerSettings": 0
+  }
+}

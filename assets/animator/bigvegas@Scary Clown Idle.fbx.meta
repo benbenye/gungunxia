@@ -1,0 +1,520 @@
+{
+  "ver": "2.0.2",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d",
+  "files": [],
+  "subMetas": {
+    "22148": {
+      "importer": "gltf-scene",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@22148",
+      "displayName": "",
+      "id": "22148",
+      "name": "bigvegas@Scary Clown Idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 82
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43317": {
+      "importer": "gltf-material",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@43317",
+      "displayName": "",
+      "id": "43317",
+      "name": "Elvis_Mouth_MAT.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "89342": {
+      "importer": "texture",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@89342",
+      "displayName": "",
+      "id": "89342",
+      "name": "MouthMAP.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6b6838b4-0088-439f-b311-98ec64309a3d@c37d5"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4a736": {
+      "importer": "gltf-mesh",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@4a736",
+      "displayName": "",
+      "id": "4a736",
+      "name": "newVegas:Elvis_BodyGeo.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7c4c9": {
+      "importer": "gltf-mesh",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@7c4c9",
+      "displayName": "",
+      "id": "7c4c9",
+      "name": "newVegas:Elvis_MouthAnimGeo.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5ee4a": {
+      "importer": "gltf-mesh",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@5ee4a",
+      "displayName": "",
+      "id": "5ee4a",
+      "name": "newVegas:Elvis_BrowsAnimGeo.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a6eb6": {
+      "importer": "gltf-mesh",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@a6eb6",
+      "displayName": "",
+      "id": "a6eb6",
+      "name": "newVegas:Elvis_EyesAnimGeo.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ed919": {
+      "importer": "gltf-animation",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@ed919",
+      "displayName": "",
+      "id": "ed919",
+      "name": "Scary Clown Idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.9583333730697632
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 82
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "75ee4": {
+      "importer": "gltf-skeleton",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@75ee4",
+      "displayName": "",
+      "id": "75ee4",
+      "name": "UnnamedSkeleton-2.skeleton",
+      "userData": {
+        "gltfIndex": 2,
+        "jointsLength": 82
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a72ab": {
+      "importer": "gltf-skeleton",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@a72ab",
+      "displayName": "",
+      "id": "a72ab",
+      "name": "UnnamedSkeleton-3.skeleton",
+      "userData": {
+        "gltfIndex": 3,
+        "jointsLength": 82
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fb43b": {
+      "importer": "gltf-embeded-image",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@fb43b",
+      "displayName": "",
+      "id": "fb43b",
+      "name": "FatElvis_normal.jpg-0.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b8608": {
+      "importer": "gltf-embeded-image",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@b8608",
+      "displayName": "",
+      "id": "b8608",
+      "name": "FatElvis_diffuse.jpg-1.image",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c37d5": {
+      "importer": "gltf-embeded-image",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@c37d5",
+      "displayName": "",
+      "id": "c37d5",
+      "name": "Elvis_FaceAnimMap.png-2.image",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4279a": {
+      "importer": "gltf-embeded-image",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@4279a",
+      "displayName": "",
+      "id": "4279a",
+      "name": "Elvis_FaceAnimMap.png-3.image",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cf3d4": {
+      "importer": "gltf-embeded-image",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@cf3d4",
+      "displayName": "",
+      "id": "cf3d4",
+      "name": "Elvis_FaceAnimMap.png-4.image",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a562b": {
+      "importer": "texture",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@a562b",
+      "displayName": "",
+      "id": "a562b",
+      "name": "file3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6b6838b4-0088-439f-b311-98ec64309a3d@fb43b"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20e9": {
+      "importer": "texture",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@d20e9",
+      "displayName": "",
+      "id": "d20e9",
+      "name": "file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6b6838b4-0088-439f-b311-98ec64309a3d@b8608"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "294aa": {
+      "importer": "texture",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@294aa",
+      "displayName": "",
+      "id": "294aa",
+      "name": "BrowsMAP.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6b6838b4-0088-439f-b311-98ec64309a3d@4279a"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0ff08": {
+      "importer": "texture",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@0ff08",
+      "displayName": "",
+      "id": "0ff08",
+      "name": "EyesMAP.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6b6838b4-0088-439f-b311-98ec64309a3d@cf3d4"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5ac36": {
+      "importer": "gltf-material",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@5ac36",
+      "displayName": "",
+      "id": "5ac36",
+      "name": "Character_Fat_Elvis_body_color.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ba346": {
+      "importer": "gltf-material",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@ba346",
+      "displayName": "",
+      "id": "ba346",
+      "name": "Elvis_Brows_MAT.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c398d": {
+      "importer": "gltf-material",
+      "uuid": "6b6838b4-0088-439f-b311-98ec64309a3d@c398d",
+      "displayName": "",
+      "id": "c398d",
+      "name": "Elvis_Eyes_MAT.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "FatElvis_normal.jpg",
+        "uri": "6b6838b4-0088-439f-b311-98ec64309a3d@fb43b"
+      },
+      {
+        "name": "FatElvis_diffuse.jpg",
+        "uri": "6b6838b4-0088-439f-b311-98ec64309a3d@b8608"
+      },
+      {
+        "name": "Elvis_FaceAnimMap.png",
+        "uri": "6b6838b4-0088-439f-b311-98ec64309a3d@c37d5"
+      },
+      {
+        "name": "Elvis_FaceAnimMap.png",
+        "uri": "6b6838b4-0088-439f-b311-98ec64309a3d@4279a"
+      },
+      {
+        "name": "Elvis_FaceAnimMap.png",
+        "uri": "6b6838b4-0088-439f-b311-98ec64309a3d@cf3d4"
+      }
+    ],
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 1.9583333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Scary Clown Idle",
+            "from": 0,
+            "to": 1.9583333730697632,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "6b6838b4-0088-439f-b311-98ec64309a3d@22148",
+    "assetFinder": {
+      "meshes": [
+        "6b6838b4-0088-439f-b311-98ec64309a3d@4a736",
+        "6b6838b4-0088-439f-b311-98ec64309a3d@7c4c9",
+        "6b6838b4-0088-439f-b311-98ec64309a3d@5ee4a",
+        "6b6838b4-0088-439f-b311-98ec64309a3d@a6eb6"
+      ],
+      "skeletons": [
+        "6b6838b4-0088-439f-b311-98ec64309a3d@30732",
+        "6b6838b4-0088-439f-b311-98ec64309a3d@f1394",
+        "6b6838b4-0088-439f-b311-98ec64309a3d@75ee4",
+        "6b6838b4-0088-439f-b311-98ec64309a3d@a72ab"
+      ],
+      "textures": [
+        "6b6838b4-0088-439f-b311-98ec64309a3d@a562b",
+        "6b6838b4-0088-439f-b311-98ec64309a3d@d20e9",
+        "6b6838b4-0088-439f-b311-98ec64309a3d@89342",
+        "6b6838b4-0088-439f-b311-98ec64309a3d@294aa",
+        "6b6838b4-0088-439f-b311-98ec64309a3d@0ff08"
+      ],
+      "materials": [
+        "6b6838b4-0088-439f-b311-98ec64309a3d@5ac36",
+        "6b6838b4-0088-439f-b311-98ec64309a3d@43317",
+        "6b6838b4-0088-439f-b311-98ec64309a3d@ba346",
+        "6b6838b4-0088-439f-b311-98ec64309a3d@c398d"
+      ],
+      "scenes": [
+        "6b6838b4-0088-439f-b311-98ec64309a3d@22148"
+      ]
+    },
+    "legacyFbxImporter": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ver": "4.0.9",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "6ebbd194-32fb-48aa-8cbc-053aa42eea14",
+  "files": [
+    ".js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/scripts/data/CustomEventListener.js",
+    "importerSettings": 0
+  }
+}

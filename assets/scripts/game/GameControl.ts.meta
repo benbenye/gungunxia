@@ -1,0 +1,16 @@
+{
+  "ver": "4.0.9",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "956e4a7d-aac0-45e4-8f3d-45a8037ae59d",
+  "files": [
+    ".js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/scripts/game/GameControl.js",
+    "importerSettings": 0
+  }
+}

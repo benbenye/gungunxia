@@ -1,0 +1,78 @@
+{
+  "ver": "2.0.2",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7d680622-825d-44b4-a923-7c89f31deefd",
+  "files": [],
+  "subMetas": {
+    "b84cf": {
+      "importer": "gltf-animation",
+      "uuid": "7d680622-825d-44b4-a923-7c89f31deefd@b84cf",
+      "displayName": "",
+      "id": "b84cf",
+      "name": "Running.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2d935": {
+      "importer": "gltf-scene",
+      "uuid": "7d680622-825d-44b4-a923-7c89f31deefd@2d935",
+      "displayName": "",
+      "id": "2d935",
+      "name": "bigvegas@Running.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 1,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Running",
+            "from": 0,
+            "to": 1,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "7d680622-825d-44b4-a923-7c89f31deefd@2d935",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "7d680622-825d-44b4-a923-7c89f31deefd@2d935"
+      ]
+    },
+    "legacyFbxImporter": true
+  }
+}

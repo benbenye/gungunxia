@@ -1,0 +1,78 @@
+{
+  "ver": "2.0.2",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a00257f4-287b-4c65-a5ed-1d0703fd2e00",
+  "files": [],
+  "subMetas": {
+    "02cd2": {
+      "importer": "gltf-animation",
+      "uuid": "a00257f4-287b-4c65-a5ed-1d0703fd2e00@02cd2",
+      "displayName": "",
+      "id": "02cd2",
+      "name": "Scary Clown Walk.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6666666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "81fdf": {
+      "importer": "gltf-scene",
+      "uuid": "a00257f4-287b-4c65-a5ed-1d0703fd2e00@81fdf",
+      "displayName": "",
+      "id": "81fdf",
+      "name": "bigvegas@Scary Clown Walk.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 0.6666666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Scary Clown Walk",
+            "from": 0,
+            "to": 0.6666666865348816,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "a00257f4-287b-4c65-a5ed-1d0703fd2e00@81fdf",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "a00257f4-287b-4c65-a5ed-1d0703fd2e00@81fdf"
+      ]
+    },
+    "legacyFbxImporter": true
+  }
+}
