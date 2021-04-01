@@ -13,7 +13,7 @@ export class PlayerManager extends Component {
     private pole: Node = null
 
     onLoad() {
-        this.playerAnim = this.player.getChildByName('bigvegas@Scary Clown Idle').getComponent(SkeletalAnimation);
+        this.playerAnim = this.player.getChildByName('idle').getComponent(SkeletalAnimation);
         this.pole = this.player.getChildByName('Pole');
         this.pole.setPosition(new Vec3(0, 1.196, -0.423))
         this.playerAnim.play();
@@ -22,7 +22,7 @@ export class PlayerManager extends Component {
         CustomEventListener.on(Constants.PlayerState.IDLE, this.idle, this)
     }
     running() {
-        this.playerAnim.play('Running');
+        this.playerAnim.play('runing');
         this.pole.setPosition(new Vec3(0, 1.196, -0.423))
     }
     idle() {
@@ -30,7 +30,7 @@ export class PlayerManager extends Component {
         this.pole.setPosition(new Vec3(0, 1.196, -0.423))
     }
     hang() {
-        this.playerAnim.play('Hanging Idle');
+        // this.playerAnim.play('Hanging Idle');
         this.pole.setPosition(new Vec3(0, 2.316, -0.028))
     }
 

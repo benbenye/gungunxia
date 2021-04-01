@@ -15,6 +15,8 @@ export class RunTimeData {
     public currProgress = 0;
     public maxProgress = 0;
     public speedX = 0;
-    public accelerationY = 0;
-    public speedZ = -8;
+    public accelerationY = -0.005;
+    public speedY = 0;
+    public maxSpeedY = -0.1;
+    public speedZ = -0.13;
 }

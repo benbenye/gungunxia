@@ -13,6 +13,16 @@ enum EventName {
     SHOW_GUIDE = 'show_guide'
 }
 
+enum PoleCollisionName {
+    COIN = 'coin',
+    RAIL = 'rail'
+}
+enum PlayerCollisionName {
+    POLE_COLLECT = 'pole_collect',
+    POISON = 'poison',
+    CUT = 'cut',
+}
+
 enum GameState {
     IDLE = 'idle',
     PLAYING = 'playing',
@@ -70,6 +80,10 @@ export class Constants extends Component {
     public static PlayerState = PlayerState;
 
     public static AudioSource = AudioSource;
+
+    public static PoleCollisionName = PoleCollisionName;
+
+    public static PlayerCollisionName = PlayerCollisionName;
 
     public static Group = Group;
 

@@ -13,10 +13,10 @@ export class RoadTag extends Component {
     tagName = Constants.Group.COIN;
     onLoad() {
         console.log(this.node)
-        if (this.tagName === Constants.Group.RAIL) {
-            this.node.getComponent(CylinderColliderComponent).setGroup(this.tagName);
-            return;
-        }
+        // if (this.tagName === Constants.Group.RAIL) {
+        //     this.node.getComponent(CylinderColliderComponent).setGroup(this.tagName);
+        //     return;
+        // }
         this.node.getComponent(BoxColliderComponent).setGroup(this.tagName);
     }
 }

@@ -50,6 +50,7 @@ export class GameControl extends Component {
         this.playerBox.setGroup(Constants.Group.PLAYER)
         this.playerBox.setMask(Constants.Group.PLANE + Constants.Group.CUT + Constants.Group.POISON + Constants.Group.POLE_COLLECT)
         console.log(this.playerBox.getGroup(), this.playerBox.getMask())
+        CustomEventListener.on(Constants.PoleCollisionName.RAIL, this.hitRail, this);
     }
     cc(e: ITriggerEvent) {
         console.log(`stay: ${e.otherCollider.name}`)
@@ -57,13 +58,15 @@ export class GameControl extends Component {
     aa(e: ITriggerEvent) {
         console.log(`enter: ${e.otherCollider.name}`)
         if (this.gameState === Constants.GameState.PLAYING) {
-            if (e.otherCollider.node.name.match('Coin')) {
-                console.log('get coin')
+            console.log(e.otherCollider.node.name, e.otherCollider.node.name.match('BarCollect'))
+            if (e.otherCollider.node.name.match('BarCollect')) {
+                CustomEventListener.dispatchEvent(Constants.PlayerCollisionName.POLE_COLLECT);
+                console.log('get bar')
                 return;
             }
             // if (Vec3.distance(this.player.getWorldPosition(), e.otherCollider.))
             CustomEventListener.dispatchEvent(Constants.PlayerState.RUNNING);
-            this._runTimeData.accelerationY = 0;
+            this._runTimeData.speedY = 0;
         }
     }
     bb(e: ITriggerEvent) {
@@ -72,19 +75,31 @@ export class GameControl extends Component {
             return
         }
         CustomEventListener.dispatchEvent(Constants.PlayerState.JUMP);
-        this._runTimeData.accelerationY = -10;
+        this._runTimeData.speedY = -0.0001;
+        this.scheduleOnce(() => {
+            // 防止平台造成视觉遮挡，直接给隐藏掉
+            e.otherCollider.node.parent.active = false;
+        }, 0.01)
+    }
+    hitRail(e: ITriggerEvent) {
+        this._runTimeData.speedY = 0;
     }
     update(dt) {
         if (this.gameState !== Constants.GameState.PLAYING) return;
         const wp = this.playerManager.getWorldPosition();
         const cameraWp = find('Main Camera').getWorldPosition();
-        if (cameraWp.z < -300) {
+        if (cameraWp.z < -3) {
             this._gameOver();
             return;
         };
-        wp.y += this._runTimeData.accelerationY * dt;
+        if (this._runTimeData.speedY) {
+            this._runTimeData.speedY += this._runTimeData.accelerationY * dt;
+            if (this._runTimeData.speedY < this._runTimeData.maxSpeedY)
+                this._runTimeData.speedY = this._runTimeData.maxSpeedY;
+            wp.y += this._runTimeData.speedY;
+            cameraWp.y += this._runTimeData.speedY;
+        }
         wp.z += this._runTimeData.speedZ * dt;
-        cameraWp.y += this._runTimeData.accelerationY * dt;
         cameraWp.z += this._runTimeData.speedZ * dt;
         this.playerManager.setWorldPosition(wp)
         find('Main Camera').setWorldPosition(cameraWp)
