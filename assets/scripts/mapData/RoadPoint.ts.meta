@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "6213316f-6e17-4505-ab03-0ad5e5a8c4da",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/scripts/mapData/RoadPoint.js",
+    "importerSettings": 0
+  }
+}

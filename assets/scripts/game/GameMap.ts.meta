@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "f97173b8-511c-48fa-9cf7-39f9a59d2b03",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/scripts/game/GameMap.js",
+    "importerSettings": 0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "dfffcc56-a0ee-48cb-9566-bcb3e0889ccf",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/scripts/data/Constants.js",
+    "importerSettings": 0
+  }
+}

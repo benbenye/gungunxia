@@ -1,0 +1,78 @@
+{
+  "ver": "2.0.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8bfe31e4-6557-489a-9352-9d01f507cd30",
+  "files": [],
+  "subMetas": {
+    "e2fa7": {
+      "importer": "gltf-animation",
+      "uuid": "8bfe31e4-6557-489a-9352-9d01f507cd30@e2fa7",
+      "displayName": "",
+      "id": "e2fa7",
+      "name": "Hanging Idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 4.458333492279053
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "28c20": {
+      "importer": "gltf-scene",
+      "uuid": "8bfe31e4-6557-489a-9352-9d01f507cd30@28c20",
+      "displayName": "",
+      "id": "28c20",
+      "name": "bigvegas@Hanging Idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 4.458333492279053,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hanging Idle",
+            "from": 0,
+            "to": 4.458333492279053,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "8bfe31e4-6557-489a-9352-9d01f507cd30@28c20",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "8bfe31e4-6557-489a-9352-9d01f507cd30@28c20"
+      ]
+    }
+  }
+}

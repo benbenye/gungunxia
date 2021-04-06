@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "7e07012c-45ba-42d1-8a30-f73dbcbb60d4",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/scripts/game/RoadTag.js",
+    "importerSettings": 0
+  }
+}
